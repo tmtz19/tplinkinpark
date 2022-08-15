@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkin Park - Contacto</title>
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/multimedia/favicon.png">
+</head>
+<body>
+    <!-- fila de nombre + logo + nav -->
+    <header>
+        <div class="logo">
+            <img src="/multimedia/logo.jpg" alt="logo linkin park">
+            <a class="titulo" href="/index.html">LINKIN PARK</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="item" href="/index.html">INICIO</a></li>
+                <li><a class="item" href="integrantes.html">INTEGRANTES</a></li>
+                <li><a class="item" href="discografia.html">DISCOGRAFIA</a></li>
+                <li><a class="item" href="galeria.html">GALERIA</a></li>
+                <li><a class="item" href="#">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- cierre fila nombre + logo + nav -->
+    <!-- formulario de contacto -->
+    <main>
+        <div class="contenedor-con">
+            <div class="intro">
+                <h2>CONTACTO</h2>
+                <p>Nos interesa conocerte y saber tu opinion sobre la pagina! Podes comentarnos sugerencias o criticas respecto al contenido que desees ver. Tu opinion nos ayuda mucho a seguir mejorando!</p>
+            </div>
+            <div class="form">
+                <form action method="get" enctype="application/x-www-form-urlencoded">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" placeholder="Tu nombre"><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Tu email de contacto"><br>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id cols="50" rows="6" placeholder="Dejanos tu mensaje"></textarea><br>
+                    <input id="boton" type="submit" name="enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <!-- cierre formulario de contacto -->
+    <!-- inicio footer -->
+    <footer id="fin">
+        <div class="copyright">
+            <p>Copyright Tomas Martinez Inverni© 2022</p>
+        </div>
+        <div class="redes">
+            <a href="https://www.facebook.com/linkinpark" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.youtube.com/channel/UCZU9T1ceaOgwfLRq7OKFU4Q" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/linkinpark/?hl=es" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <!-- cierre footer -->
+</body>
+</html>
