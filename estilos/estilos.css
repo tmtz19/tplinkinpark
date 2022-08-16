@@ -51,7 +51,7 @@ nav{
 .portada{
     width: 40%;
     height: 400px;
-    background-image: url(./multimedia/Linkin-Park-617.jpg);
+    background-image: url(../multimedia/Linkin-Park-617.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
