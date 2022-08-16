@@ -37,6 +37,7 @@ nav ul li{
 }
 li a:hover{
     color: rgb(165, 158, 158);
+    transition: all 250ms ease;
 }
 nav{
     background-color: rgb(102, 97, 97);
@@ -312,7 +313,7 @@ footer{
 .foto4{
     background-image: url(../multimedia/galeria3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .foto5{
     background-image: url(../multimedia/galeria7.jpg);
