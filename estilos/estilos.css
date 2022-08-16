@@ -51,7 +51,7 @@ nav{
 .portada{
     width: 40%;
     height: 400px;
-    background-image: url(/multimedia/Linkin-Park-617.jpg);
+    background-image: url(../multimedia/Linkin-Park-617.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -97,32 +97,32 @@ footer{
     border: 2px solid black;
 }
 .imagenmike{
-    background-image: url(/multimedia/Mikeshinoda.jpg);
+    background-image: url(../multimedia/Mikeshinoda.jpg);
     background-position: center;
     background-size: cover;
 }
 .imagenjoe{
-    background-image: url(/multimedia/joehahn.jpg);
+    background-image: url(../multimedia/joehahn.jpg);
     background-position: center;
     background-size: cover;
 }
 .imagenrob{
-    background-image: url(/multimedia/robbourdon.jpg);
+    background-image: url(../multimedia/robbourdon.jpg);
     background-position: center;
     background-size: cover;
 }
 .imagenbrad{
-    background-image: url(/multimedia/braddelson.jpg);
+    background-image: url(../multimedia/braddelson.jpg);
     background-position: center;
     background-size: cover;
 }
 .imagendave{
-    background-image: url(/multimedia/davefarrell.jpg);
+    background-image: url(../multimedia/davefarrell.jpg);
     background-position: center;
     background-size: cover;
 }
 .imagenchester{
-    background-image: url(/multimedia/chesterbennington.jpg);
+    background-image: url(../multimedia/chesterbennington.jpg);
     background-position: center;
     background-size: cover;    
 }
@@ -218,37 +218,37 @@ footer{
     border: 0.5px solid black;
 }
 .disco1{
-    background-image: url(/multimedia/hybrydtheory.jpg);
+    background-image: url(../multimedia/hybrydtheory.jpg);
     background-position: center;
     background-size: cover;
 }
 .disco2{
-    background-image: url(/multimedia/meteora.jpg);
+    background-image: url(../multimedia/meteora.jpg);
     background-position: center;
     background-size: cover;
 }
 .disco3{
-    background-image: url(/multimedia/minutestomidnight.jpg);
+    background-image: url(../multimedia/minutestomidnight.jpg);
     background-position: center;
     background-size: cover;
 }
 .disco4{
-    background-image: url(/multimedia/athousandsuns.jpg);
+    background-image: url(../multimedia/athousandsuns.jpg);
     background-position: center;
     background-size: cover;
 }
 .disco5{
-    background-image: url(/multimedia/livingthings.jpg);
+    background-image: url(../multimedia/livingthings.jpg);
     background-position: center;
     background-size: cover;
 }
 .disco6{
-    background-image: url(/multimedia/thehuntingparty.jpg);
+    background-image: url(../multimedia/thehuntingparty.jpg);
     background-position: center;
     background-size: cover;
 }
 .disco7{
-    background-image: url(/multimedia/onemorelight.jpg);
+    background-image: url(../multimedia/onemorelight.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -295,32 +295,32 @@ footer{
     transform: translateY(-2%);
 }
 .foto1{
-    background-image: url(/multimedia/galeria.jpg);
+    background-image: url(../multimedia/galeria.jpg);
     background-size: cover;
     background-position: center;
 }
 .foto2{
-    background-image: url(/multimedia/galeria2.jpg);
+    background-image: url(../multimedia/galeria2.jpg);
     background-size: cover;
     background-position: center;
 }
 .foto3{
-    background-image: url(/multimedia/galeria4.jpg);
+    background-image: url(../multimedia/galeria4.jpg);
     background-size: cover;
     background-position: center;
 }
 .foto4{
-    background-image: url(/multimedia/galeria3.jpg);
+    background-image: url(../multimedia/galeria3.jpg);
     background-size: cover;
     background-position: center;
 }
 .foto5{
-    background-image: url(/multimedia/galeria7.jpg);
+    background-image: url(../multimedia/galeria7.jpg);
     background-size: cover;
     background-position: center;
 }
 .foto6{
-    background-image: url(/multimedia/galeria6.jpg);
+    background-image: url(../multimedia/galeria6.jpg);
     background-size: cover;
     background-position: center;
 }
