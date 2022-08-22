@@ -5,83 +5,49 @@
     list-style: none;
     box-sizing: border-box;
 }
-header{
-    display: flex;
-    background-color: rgb(102, 97, 97);
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+.header{
+    padding: 50px;
 }
-.logo{
-    display: flex;
-    align-items: center;
+.bgnav{
+    background-color:rgb(102, 97, 97) ;
 }
-.logo img{
-    height: 60px;
-}
-.titulo{
-    color: black;
-    font-size: 28px;
-    font-weight: bold;
+.navbar-brand{
+    color: black !important;
+    text-shadow: 0 0 2px black;
     font-family: "oswald";
 }
-nav ul li{
-    display: inline-block;
-}
-.item{
-    color: black;
-    font-size: 17px;
-    font-weight: bold;
-    padding-right: 20px;
+.nav-link{
+    color: black !important; 
     font-family: "roboto" , sans-serif ;
 }
-li a:hover{
-    color: rgb(165, 158, 158);
-}
-nav{
-    background-color: rgb(102, 97, 97);
-}
-.maindiv{
+.main{
     background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
-    min-height: 763px;
-    display: flex;
-    justify-content: space-evenly;
+    padding: 20px 0;
+}
+.row{
     align-items: center;
 }
-.portada{
-    width: 40%;
-    height: 400px;
-    background-image: url(/multimedia/Linkin-Park-617.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    border: 2px solid #000;
-}
-.maindiv p{
-    padding: 20px;
-    width: 600px;
+.row p{
     font-size: 20px;
-    font-weight: 400;
-    font-family: "oswald" , sans-serif;
+    margin-top: 5px;
+    font-family: "roboto" , sans-serif ;
+}
+.row img{
+    border: 1px solid black;
 }
 footer{
-    background-color: rgb(102, 97, 97);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 94px;
-}
-.copyright{
-    font-size: 15px;
-}
-.copyright p{
-    font-family: "roboto" , sans-serif ;
+    background-color:rgb(102, 97, 97);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-family: "oswald";
 }
 .redes i{
     color: black;
-    font-size: 40px;
-    letter-spacing: 20px;
+    font-size: 30px;
+    letter-spacing: 10px;
 }
+
 .contenedor-int{
     background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
     padding: 20px;
