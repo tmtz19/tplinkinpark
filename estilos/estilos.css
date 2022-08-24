@@ -22,6 +22,7 @@
 }
 .nav-link:hover{
     color:rgb(156, 156, 151) !important;
+    transition: all 300ms ease;
 }
 .main{
     background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
@@ -49,6 +50,10 @@ footer{
     color: black;
     font-size: 30px;
     letter-spacing: 10px;
+}
+.redes i:hover{
+    color:rgb(156, 156, 151);
+    transition: all 300ms ease;
 }
 
 .contenedor-int{
