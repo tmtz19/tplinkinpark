@@ -20,6 +20,9 @@
     color: black !important; 
     font-family: "roboto" , sans-serif ;
 }
+.nav-link:hover{
+    color:rgb(156, 156, 151) !important;
+}
 .main{
     background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
     padding: 20px 0;
@@ -278,7 +281,7 @@ footer{
 .foto4{
     background-image: url(../multimedia/galeria3.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .foto5{
     background-image: url(../multimedia/galeria7.jpg);
