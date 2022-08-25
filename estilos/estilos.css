@@ -15,10 +15,15 @@
     color: black !important;
     text-shadow: 0 0 2px black;
     font-family: "oswald";
+    font-size: 20px;
+    text-transform: uppercase;
 }
 .nav-link{
     color: black !important; 
     font-family: "roboto" , sans-serif ;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
 }
 .nav-link:hover{
     color:rgb(156, 156, 151) !important;
@@ -38,6 +43,7 @@
 }
 .row img{
     border: 1px solid black;
+    width: 100%;
 }
 footer{
     background-color:rgb(102, 97, 97);
@@ -334,7 +340,7 @@ footer{
     background-position: center;
 }
 .foto10{
-    background-image: url(../multimedia/galeria9.jpg);
+    background-image: url(../multimedia/galeria12.jpg);
     background-size: cover;
     background-position: top;
 }
@@ -344,9 +350,9 @@ footer{
     background-position: center;
 }
 .foto12{
-    background-image: url(../multimedia/galeria12.jpg);
+    background-image: url(../multimedia/galeria9.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 .foto13{
     background-image: url(../multimedia/galeria13.jpg);
