@@ -13,14 +13,14 @@
 }
 .navbar-brand{
     color: black !important;
-    text-shadow: 0 0 2px black;
+    text-shadow: 0px 0px 1px black;
     font-family: "oswald";
-    font-size: 20px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 .nav-link{
     color: black !important; 
-    font-family: "roboto" , sans-serif ;
+    font-family: "oswald" , sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 800;
