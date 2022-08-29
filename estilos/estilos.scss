@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+$titulos: "oswald";
+$textos: "roboto" , sans-serif;
+$headfoot: rgb(102, 97, 97);
+
+.header{
+    padding: 50px;
+}
+.bgnav{
+    background-color: $headfoot ;
+}
+.navbar-brand{
+    color: black !important;
+    text-shadow: 0px 0px 1px black;
+    font-family: $titulos ;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.nav-link{
+    color: black !important; 
+    font-family: $titulos , sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    &:hover{
+        color:rgb(156, 156, 151) !important;
+        transition: all 300ms ease;
+    }
+}
+.main{
+    background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
+    padding: 20px 0;
+}
+.row{
+    align-items: center;
+    p{
+        font-size: 20px;
+        margin-top: 5px;
+        font-family: $textos;
+    }
+    img{
+        border: 1px solid black;
+        width: 100%;
+    }
+}
+footer{
+    background-color: $headfoot;
+    text-align: center;
+    color: black;
+    padding: 25px;
+    font-family: $titulos;
+    i{
+        color: black;
+        font-size: 30px;
+        letter-spacing: 10px;
+        &:hover{
+            color:rgb(156, 156, 151);
+            transition: all 300ms ease;
+        }
+    }
+}
+.jumbotron{
+    background-image: url(../multimedia/jumbotron.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    font-family: $titulos;
+    height: 600px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.jumbotron2{
+    background-image: url(../multimedia/jumbotron2.jpg);
+    background-position: top;
+    background-size: cover;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    font-family: $titulos;
+    height: 500px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.contenedor-int{
+    background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
+    padding: 20px;
+    h2{
+        text-align: center;
+        font-family: $titulos;
+    }
+    h3{
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: $titulos;
+        text-shadow: 0px 0px 2px;
+        align-self: flex-start;
+    }
+    p{
+        width: 600px;
+        font-weight: 600;
+        font-family: $textos;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 20px;
+        padding: 0 20px;
+    }
+}
+.imagen{
+    height: 400px;
+    width: 40%;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+.imagenmike{
+    background-image: url(../multimedia/Mikeshinoda.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imagenjoe{
+    background-image: url(../multimedia/joehahn.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imagenrob{
+    background-image: url(../multimedia/robbourdon.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imagenbrad{
+    background-image: url(../multimedia/braddelson.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imagendave{
+    background-image: url(../multimedia/davefarrell.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.imagenchester{
+    background-image: url(../multimedia/chesterbennington.jpg);
+    background-position: center;
+    background-size: cover;    
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-con{
+    background-image: linear-gradient(320deg, rgb(148, 148, 141), rgb(75, 75, 70));
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 763px;
+}
+.intro{
+    h2{
+        font-size: 30px;
+        font-family: $titulos;
+    }
+    p{
+        font-size: 20px;
+        font-family: $textos;
+        width: 800px;
+        margin-top: 20px;
+    }
+}
+.form{
+    label{
+        display: block;
+        font-weight: bold;
+        font-family: $textos;
+        line-height: 2;
+    }
+    input{
+        border-radius: 3px;
+        font-family: $textos;
+        width: 100%;
+        height: 40px;
+        margin-bottom: 5px;
+        border: none;
+        padding: 5px;
+    }
+    textarea{
+        border-radius: 4px;
+        font-family: $textos;
+        margin-bottom: 5px;
+        min-height: 100px;
+        max-height: 200px;
+        max-width: 100%;
+        padding: 5px;
+        border: none
+    }
+}
+#boton{
+    background-color: $headfoot;
+    font-weight: bold;
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(65, 61, 61) ;
+    }
+}
+.contenedor-dis{
+    background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
+    div{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    h2{
+        text-align: center;
+        padding: 20px 0;
+        font-family: $titulos;
+    }
+}
+.disco{
+    height: 400px;
+    width: 400px;
+    border: 0.5px solid black;
+}
+.disco1{
+    background-image: url(../multimedia/hybrydtheory.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.disco2{
+    background-image: url(../multimedia/meteora.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.disco3{
+    background-image: url(../multimedia/minutestomidnight.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.disco4{
+    background-image: url(../multimedia/athousandsuns.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.disco5{
+    background-image: url(../multimedia/livingthings.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.disco6{
+    background-image: url(../multimedia/thehuntingparty.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.disco7{
+    background-image: url(../multimedia/onemorelight.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.galeria{
+    background-image: linear-gradient(220deg, rgb(148, 148, 141), rgb(75, 75, 70));
+    h2{
+        text-align: center;
+        padding: 20px;
+        font-family: $titulos;
+    }
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: $headfoot;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    font-size: 22px;
+}
+.fotos{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6 , 1fr);
+    grid-gap: 20px;
+}
+.foto{
+    border: 2px solid black;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    transition:  all 400ms ease;
+    border-radius: 5px;
+    &:hover{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.8);
+        transform: translateY(-2%);
+        >.txt{
+            opacity: 1;
+        visibility: visible;
+        transition: all 500ms ease;
+        margin-top: 250px;
+        text-shadow: 5px 5px 5px black;
+        }
+    }
+}
+.foto1{
+    background-image: url(../multimedia/galeria.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto2{
+    background-image: url(../multimedia/galeria2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto3{
+    background-image: url(../multimedia/galeria4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto4{
+    background-image: url(../multimedia/galeria3.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.foto5{
+    background-image: url(../multimedia/galeria7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto6{
+    background-image: url(../multimedia/galeria6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto7{
+    background-image: url(../multimedia/galeria5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto8{
+    background-image: url(../multimedia/galeria8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto9{
+    background-image: url(../multimedia/galeria10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto10{
+    background-image: url(../multimedia/galeria12.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.foto11{
+    background-image: url(../multimedia/galeria11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto12{
+    background-image: url(../multimedia/galeria9.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.foto13{
+    background-image: url(../multimedia/galeria13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto14{
+    background-image: url(../multimedia/galeria14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.foto15{
+    background-image: url(../multimedia/galeria16.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.foto16{
+    background-image: url(../multimedia/galeria15.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.foto17{
+    background-image: url(../multimedia/galeria18.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.foto18{
+    background-image: url(../multimedia/galeria17.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.txt{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+@media screen and (max-width: 1199px){
+    .maindiv{
+        flex-direction: column;
+        p{
+            width: auto;
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+    }
+    .portada{
+        width: 75%;
+        margin-top: 20px;
+    }
+    .item{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 479px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px
+    }
+    .item{
+        font-size: 7px;
+        padding: 0 10px;
+    }
+    .titulo{
+        display: none;
+    }
+    .portada{
+        height: 200px;
+    }
+    .intro{
+        h2{
+            display: none;
+        }
+        p{
+            font-size: 16px;
+        }
+    }
+    .galeria{
+        h3{
+            display: none;
+        }
+    }
+    .foto{
+        height: 200px;
+    }
+    .contenedor-int{
+        div{
+            flex-direction: column;
+            margin: 5px;
+        }
+        h2{
+            display: none;
+        }
+    }
+    .imagen{
+        height: 200px;
+        width: 95%;
+    }
+    .texto{
+        h3{
+            align-self: center;
+            font-size: 20px;
+        }
+        p{
+            width: auto;
+            margin: 3px 0;
+        }
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px
+    }
+    .item{
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .titulo{
+        display: none;
+    }
+    .portada{
+        height: 300px
+    }
+    .contenedor-int{
+        div{
+            flex-direction: column;
+            margin: 5px;
+        }
+        h2{
+            display: none;
+        }
+    }
+    .imagen{
+        height: 300px;
+        width: 100%;
+        background-position: top;
+    }
+    .texto{
+        h3{
+            align-self: center;
+            font-size: 30px;
+        }
+        p{
+            width: auto;
+            margin: 3px 0;
+        }
+    }
+}
+@media screen and (min-width: 701px) and (max-width: 1199px){
+    .contenedor-int{
+        div{
+            width: 100%;
+        }
+        h2{
+            display: none;
+        }
+    }
+    .imagen{
+        height: 350px;
+        background-position: top;
+    }
+    .texto{
+        h3{
+            align-self: flex-start;
+            font-size: 30px;
+        }
+        p{
+            width: auto;
+            margin: 3px 0;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    .contenedor-dis{
+        div{
+            flex-direction: column;
+            align-self: center;
+        }
+        h2{
+            display: none;
+        }
+    }
+    .disco{
+        height: 300px;
+        width: 300px;
+    }
+    .spotify{
+        iframe{
+            width: 100%;
+            height: 300px;
+        }
+    }
+}
+@media screen and (max-width: 1199px){
+    .contenedor-con{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .intro{
+        text-align: center;
+        margin-bottom: 20px;
+        p{
+            width: auto;
+        }
+    }
+    .form{
+        align-self: center;
+        width: auto;
+    }
+}
+@media screen and (max-width: 458px){
+    .form{
+        width: 100%;
+        textarea{
+            width: 100%;
+        }
+    }
+    .intro{
+        h2{
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width: 860px){
+    footer{
+        flex-direction: column;
+        text-align: center;
+        p{
+            margin-top: 10px;
+        }
+    }
+    .redes{
+        margin-bottom: 10px;
+        i{
+            letter-spacing: 5px;
+        }
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    
+    .fotos{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3 , 1fr);
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px){
+    .fotos{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(3 , 1fr);
+}
+    .foto2{
+        grid-column: 2/4;
+    }
+    .foto3{
+        grid-column: 1/3;
+    }
+    .foto6{
+        grid-column: 2/4;
+    }
+    .foto8{
+        grid-column: 2/4;
+    }
+    .foto9{
+        grid-column: 1/3;
+    }
+    .foto12{
+        grid-column: 2/4;
+    }
+    .foto13{
+        grid-column: 1/3;
+    }
+    .foto16{
+        grid-column: 2/4;
+    }
+    .foto17{
+        grid-column: 1/3;
+    }
+}
+@media screen and (min-width: 1200px){
+    .fotos{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat(2 , 1fr);
+    }
+}
