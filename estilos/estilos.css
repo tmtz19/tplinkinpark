@@ -128,7 +128,7 @@ footer i:hover {
   border: 2px solid black;
 }
 
-.imagenmike {
+.imagenmike, .imagenchester, .imagendave, .imagenbrad, .imagenrob, .imagenjoe {
   background-image: url(../multimedia/Mikeshinoda.jpg);
   background-position: center;
   background-size: cover;
@@ -136,32 +136,22 @@ footer i:hover {
 
 .imagenjoe {
   background-image: url(../multimedia/joehahn.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .imagenrob {
   background-image: url(../multimedia/robbourdon.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .imagenbrad {
   background-image: url(../multimedia/braddelson.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .imagendave {
   background-image: url(../multimedia/davefarrell.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .imagenchester {
   background-image: url(../multimedia/chesterbennington.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .texto {
@@ -243,7 +233,7 @@ footer i:hover {
   border: 0.5px solid black;
 }
 
-.disco1 {
+.disco1, .disco7, .disco6, .disco5, .disco4, .disco3, .disco2 {
   background-image: url(../multimedia/hybrydtheory.jpg);
   background-position: center;
   background-size: cover;
@@ -251,38 +241,26 @@ footer i:hover {
 
 .disco2 {
   background-image: url(../multimedia/meteora.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .disco3 {
   background-image: url(../multimedia/minutestomidnight.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .disco4 {
   background-image: url(../multimedia/athousandsuns.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .disco5 {
   background-image: url(../multimedia/livingthings.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .disco6 {
   background-image: url(../multimedia/thehuntingparty.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .disco7 {
   background-image: url(../multimedia/onemorelight.jpg);
-  background-position: center;
-  background-size: cover;
 }
 
 .galeria {
@@ -318,9 +296,9 @@ footer i:hover {
 }
 
 .foto {
-  border: 2px solid black;
   width: 100%;
   height: 300px;
+  border: 2px solid black;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
   transition: all 400ms ease;
   border-radius: 5px;
@@ -338,108 +316,162 @@ footer i:hover {
 }
 
 .foto1 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(63, 63, 63);
   background-image: url(../multimedia/galeria.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto2 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(102, 102, 102);
   background-image: url(../multimedia/galeria2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto3 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(143, 143, 143);
   background-image: url(../multimedia/galeria4.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto4 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(175, 175, 175);
   background-image: url(../multimedia/galeria3.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .foto5 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(204, 204, 204);
   background-image: url(../multimedia/galeria7.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto6 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(255, 255, 255);
   background-image: url(../multimedia/galeria6.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto7 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(255, 255, 255);
   background-image: url(../multimedia/galeria5.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto8 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(204, 204, 204);
   background-image: url(../multimedia/galeria8.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto9 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(175, 175, 175);
   background-image: url(../multimedia/galeria10.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto10 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(143, 143, 143);
   background-image: url(../multimedia/galeria12.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .foto11 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(102, 102, 102);
   background-image: url(../multimedia/galeria11.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto12 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(63, 63, 63);
   background-image: url(../multimedia/galeria9.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .foto13 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(63, 63, 63);
   background-image: url(../multimedia/galeria13.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto14 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(102, 102, 102);
   background-image: url(../multimedia/galeria14.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .foto15 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(143, 143, 143);
   background-image: url(../multimedia/galeria16.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .foto16 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(175, 175, 175);
   background-image: url(../multimedia/galeria15.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .foto17 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(204, 204, 204);
   background-image: url(../multimedia/galeria18.jpg);
   background-size: cover;
   background-position: top;
 }
 
 .foto18 {
+  width: 100%;
+  height: 300px;
+  border: 2px solid rgb(255, 255, 255);
   background-image: url(../multimedia/galeria17.jpg);
   background-size: cover;
   background-position: center;
@@ -468,6 +500,13 @@ footer i:hover {
   }
   .item {
     font-size: 12px;
+  }
+  .foto:hover > .txt {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
   }
 }
 @media screen and (max-width: 479px) {
