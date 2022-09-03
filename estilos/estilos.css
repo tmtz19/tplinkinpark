@@ -36,16 +36,25 @@
 
 .main {
   background-image: linear-gradient(120deg, rgb(148, 148, 141), rgb(75, 75, 70));
-  padding: 20px 0;
+  padding: 20px;
 }
 
 .row {
   align-items: center;
 }
+.row h1 {
+  font-family: "oswald";
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
 .row p {
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 5px;
   font-family: "roboto", sans-serif;
+  padding: 0 20px;
 }
 .row img {
   border: 1px solid black;
@@ -211,6 +220,7 @@ footer i:hover {
 #boton:hover {
   cursor: pointer;
   background-color: rgb(65, 61, 61);
+  transition: all 300ms ease;
 }
 
 .contenedor-dis {
