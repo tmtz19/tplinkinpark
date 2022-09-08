@@ -282,6 +282,9 @@ footer{
     border-radius: 50%;
     border: 2px solid black;
     font-size: 22px;
+    &:hover{
+        color: rgb(41, 41, 41);
+    }
 }
 .fotos{
     padding: 20px;

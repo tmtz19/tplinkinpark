@@ -296,6 +296,9 @@ footer i:hover {
   border: 2px solid black;
   font-size: 22px;
 }
+.subir:hover {
+  color: rgb(41, 41, 41);
+}
 
 .fotos {
   padding: 20px;
