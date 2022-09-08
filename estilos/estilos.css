@@ -321,7 +321,7 @@ footer i:hover {
   opacity: 1;
   visibility: visible;
   transition: all 500ms ease;
-  margin-top: 250px;
+  margin-top: 220px;
   text-shadow: 5px 5px 5px black;
 }
 
@@ -536,9 +536,6 @@ footer i:hover {
   .portada {
     height: 200px;
   }
-  .intro h2 {
-    display: none;
-  }
   .intro p {
     font-size: 16px;
   }
@@ -551,9 +548,6 @@ footer i:hover {
   .contenedor-int div {
     flex-direction: column;
     margin: 5px;
-  }
-  .contenedor-int h2 {
-    display: none;
   }
   .imagen {
     height: 200px;
@@ -589,9 +583,6 @@ footer i:hover {
     flex-direction: column;
     margin: 5px;
   }
-  .contenedor-int h2 {
-    display: none;
-  }
   .imagen {
     height: 300px;
     width: 100%;
@@ -610,9 +601,6 @@ footer i:hover {
   .contenedor-int div {
     width: 100%;
   }
-  .contenedor-int h2 {
-    display: none;
-  }
   .imagen {
     height: 350px;
     background-position: top;
@@ -630,9 +618,6 @@ footer i:hover {
   .contenedor-dis div {
     flex-direction: column;
     align-self: center;
-  }
-  .contenedor-dis h2 {
-    display: none;
   }
   .disco {
     height: 300px;

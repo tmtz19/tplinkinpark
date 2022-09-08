@@ -307,7 +307,7 @@ footer{
             opacity: 1;
         visibility: visible;
         transition: all 500ms ease;
-        margin-top: 250px;
+        margin-top: 220px;
         text-shadow: 5px 5px 5px black;
         }
     }
@@ -473,9 +473,6 @@ footer{
         height: 200px;
     }
     .intro{
-        h2{
-            display: none;
-        }
         p{
             font-size: 16px;
         }
@@ -492,9 +489,6 @@ footer{
         div{
             flex-direction: column;
             margin: 5px;
-        }
-        h2{
-            display: none;
         }
     }
     .imagen{
@@ -534,9 +528,6 @@ footer{
             flex-direction: column;
             margin: 5px;
         }
-        h2{
-            display: none;
-        }
     }
     .imagen{
         height: 300px;
@@ -559,9 +550,6 @@ footer{
         div{
             width: 100%;
         }
-        h2{
-            display: none;
-        }
     }
     .imagen{
         height: 350px;
@@ -583,9 +571,6 @@ footer{
         div{
             flex-direction: column;
             align-self: center;
-        }
-        h2{
-            display: none;
         }
     }
     .disco{
